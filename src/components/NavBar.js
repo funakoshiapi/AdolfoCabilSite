@@ -7,7 +7,7 @@ function NavBar(){
           <div className='shadow-sm bg-gray-80 px-10'>
           <nav className="py-5 mb-2 flex justify-between ">
             <div className='flex'>
-              <img className='mr-5' src={logo} width="40" height="4" alt='logo' />
+              <img className='mr-5' src={logo} width="40" height="4" alt='loga' />
               <button className='text-3xl font-bold font-montserrat  ' > Adolfo Cabeia</button>
             </div>
 
