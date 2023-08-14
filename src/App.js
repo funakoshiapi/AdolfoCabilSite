@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+
+import './index.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer';
+import NavBar from './components/NavBar';
+import HeroSection from './components/HeroSection';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className='bg-gradient-to-r from-blue-100 to-cyan-90'>
+        <Router>
+          <NavBar/>
+          <Routes>
+            <Route path='/' element={<HeroSection/>} />
+          </Routes>
+          <Footer/>
+        </Router>
+    </section>
+
   );
 }
 
