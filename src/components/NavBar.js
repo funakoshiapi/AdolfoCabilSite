@@ -62,10 +62,12 @@ const NavBar = () => {
         {links.map(({id, link}) =>(
 
           <li key={id} className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-105 duration-200'>
-            {link}
+            <Link to={link} onClick={()=> setNav(!nav)}>{link}</Link>
           </li>
         ))}
-        <li className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-105 duration-200'> recursos académicos </li>
+        <li className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-105 duration-200'> 
+            <a href='https://drive.google.com/drive/folders/1xlwLp3HG3uzULqvBl2mrSAZ1ybiAKnMG?usp=sharing' target="_blank" rel="noreferrer noopener"> recursos académicos </a>
+         </li>
         </ul>
       )}    
 
