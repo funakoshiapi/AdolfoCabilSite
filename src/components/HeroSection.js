@@ -41,7 +41,7 @@ function HeroSection(){
 
 
     return(
-        <section className="max-h-screen" id="hero">
+        <section className="max-h-screen bg-gradient-to-r from-blue-100 to-cyan-90" id="hero">
             <div className="flex flex-col items-center justify-center mb-12 md:h-screen">
                 <div className=" items-center justify-center container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:flex-row  md:space-y-0">
                     <div className="h-96 w-96 flex flex-col mb-32 space-y-2 md:w-1/2 md:h-96">

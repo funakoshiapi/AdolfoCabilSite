@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily:{
         montserrat: ['Montserrat', 'cursive'],
+        signature: ["Great Vibes"],
       },
     },
   },

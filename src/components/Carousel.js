@@ -4,7 +4,7 @@ function Carousel({images}){
     const [currentIndex, setCurrentIndex] = useState(0);
     const slideStyles = {
         width: '100%',
-        height: '100%',
+        height: '70%',
         borderRadius: '10px',
         backgroudPosition: 'center',
         backgroundSize: 'cover',
@@ -21,7 +21,7 @@ function Carousel({images}){
 
      const leftArrowStyle = {
         position: 'absolute',
-        top: '50%',
+        top: '40%',
         transform: 'translate(0, -50%)',
         left: '32px',
         fontSize: '45px',
@@ -32,7 +32,7 @@ function Carousel({images}){
 
      const rightArrowStyle = {
         position: 'absolute',
-        top: '50%',
+        top: '40%',
         transform: 'translate(0, -50%)',
         right: '32px',
         fontSize: '45px',
@@ -78,12 +78,12 @@ function Carousel({images}){
                         style={dotStyles} 
                         key={slideIndex}
                         onClick={() => goToSlide(slideIndex)}
-                    
                     >
                         {"\u2022"}
                     </div>
                 ))}
             </div>
+            <div className="text-md p-4 mx-auto flex justify-center md:text-lg "> {images[currentIndex].notes} </div>
        </div>
     )
 
