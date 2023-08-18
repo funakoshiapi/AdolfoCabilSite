@@ -14,7 +14,6 @@ import photo12 from '../assets/photo-12.jpeg'
 import photo13 from '../assets/photo-13.jpeg'
 import photo14 from '../assets/photo-14.jpeg'
 import photo15 from '../assets/photo-15.jpeg'
-import cv from '../assets/CV.pdf';
 
 
 

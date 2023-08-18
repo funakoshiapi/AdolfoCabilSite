@@ -2,7 +2,6 @@ import React from 'react'
 import { FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill, BsFacebook} from 'react-icons/bs'
-import resume from '../assets/CV.pdf'
 
 function SocialLinks() {
 
