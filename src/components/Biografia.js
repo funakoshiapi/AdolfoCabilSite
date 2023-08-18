@@ -3,7 +3,6 @@ import Carousel from "./Carousel";
 import photo1 from '../assets/photo-1.jpeg'
 import photo2 from '../assets/photo-2.jpeg'
 import photo3 from '../assets/photo-3.jpeg'
-import photo4 from '../assets/photo-4.jpeg'
 import photo5 from '../assets/photo-5.jpeg'
 import photo6 from '../assets/photo-6.jpeg'
 import photo7 from '../assets/photo-7.jpeg'
