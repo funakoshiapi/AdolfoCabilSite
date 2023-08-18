@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
+import {BsFacebook} from 'react-icons/bs'
 
 function SocialLinks() {
 
