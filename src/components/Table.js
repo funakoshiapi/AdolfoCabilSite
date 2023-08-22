@@ -3,17 +3,17 @@ import React from 'react'
 function Table({description}) {
   return (
 
-        <div className="relative overflow-x-auto z-auto">
-            <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400 z-auto">
-                <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <div className="relative overflow-x-auto z-0 h-screen">
+            <table className="w-full text-sm text-left text-gray-300 dark:text-gray-400 z-0">
+                <thead className="text-xs text-gray-300 uppercase bg-gray-50 dark:bg-slate-500 dark:text-gray-400">
                     <tr>
-                        <th scope="col" className=" text-md px-6 py-3 md:text-lg">
+                        <th scope="col" className=" text-md px-6 py-3 md:text-lg text-gray-300">
                             Ano
                         </th>
-                        <th scope="col" className=" text-md px-6 py-3 md:text-lg">
+                        <th scope="col" className=" text-md px-6 py-3 md:text-lg text-gray-300">
                             Universidade
                         </th>
-                        <th scope="col" className="text-md px-6 py-3 md:text-lg">
+                        <th scope="col" className="text-md px-6 py-3 md:text-lg text-gray-300">
                             Formação
                         </th>
                     </tr>
@@ -22,14 +22,14 @@ function Table({description}) {
 
                 {description.map(({year, university, program}) =>( 
                   
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th scope="row" className="text-md px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white md:text-lg">
+                <tr className="bg-white border-b dark:bg-blue-900 dark:border-cyan-700">
+                    <th scope="row" className="text-md px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white md:text-lg">
                         {year}
                     </th>
-                    <td className="text-md px-6 py-4 md:text-lg">
+                    <td className="text-md px-6 py-4 md:text-lg text-white">
                         {university}
                     </td>
-                    <td className="text-md px-6 py-4 md:text-lg">
+                    <td className="text-md px-6 py-4 md:text-lg  text-white">
                         {program}
                     </td>
                 </tr>

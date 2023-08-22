@@ -14,6 +14,11 @@ import photo12 from '../assets/photo-12.jpeg'
 import photo13 from '../assets/photo-13.jpeg'
 import photo14 from '../assets/photo-14.jpeg'
 import photo15 from '../assets/photo-15.jpeg'
+import photo16 from '../assets/photo-16.jpeg'
+import photo17 from '../assets/photo-17.jpeg'
+import photo18 from '../assets/photo-18.jpeg'
+import photo19 from '../assets/photo-19.jpeg'
+
 
 function Biografia() {
 
@@ -31,22 +36,30 @@ function Biografia() {
     {url: photo11 , notes: "Conclusão, Mestrado Gestão Empresarial 2021" },
     {url: photo13 , notes: "Conclusão, Mestrado Gestão Empresarial 2021" },
     {url: photo14 , notes: "Conclusão, Mestrado Gestão Empresarial 2021" },
-    {url: photo12 , notes: "" },
+    {url: photo16 , notes: "Mestrado em Auditoria Empresarial e publica, Coimbra Business School 2023" },
+    {url: photo17 , notes: "Mesa redonda sobre empreendedorismo em Africa, organizado pelo ISCTE" },
+    {url: photo18 , notes: "Aulas no ISCTE" },
+    {url: photo19 , notes: "Apos defesa de mestrado na FEUAN" },
+
     
     
 ];
   return (
     <div
       name="biografia"
-      className="w-full h-screen bg-gray-800 text-white"
+      className="w-full h-full bg-blue-900 text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
           Biografia
           </p>
         </div>
-        <Carousel images={images} />
+        <div>
+          <Carousel images={images} />
+        </div>
+
+        
       </div>
     </div>
   );

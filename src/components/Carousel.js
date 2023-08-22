@@ -1,44 +1,8 @@
 import { useState } from "react";
+import { LazyLoadComponent } from "react-lazy-load-image-component";
 
 function Carousel({images}){
     const [currentIndex, setCurrentIndex] = useState(0);
-    const slideStyles = {
-        width: '100%',
-        height: '70%',
-        borderRadius: '10px',
-        backgroudPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundImage:`url(${images[currentIndex].url})`,
-        boxShadow: '1px 2px 9px #949494   ',
-        padding: '1em',
-     };
-
-     const sliderStyle ={
-        height: '100%',
-        borderRadius: '100%',
-        position: 'relative',
-     }
-
-     const leftArrowStyle = {
-        position: 'absolute',
-        top: '40%',
-        transform: 'translate(0, -50%)',
-        left: '32px',
-        fontSize: '45px',
-        color: '#fff',
-        cursor: 'pointer',
-     };
-
-
-     const rightArrowStyle = {
-        position: 'absolute',
-        top: '40%',
-        transform: 'translate(0, -50%)',
-        right: '32px',
-        fontSize: '45px',
-        color: '#fff',
-        cursor: 'pointer',
-     };
 
      const dotsContainerStyles ={
         display: 'flex',
@@ -68,22 +32,20 @@ function Carousel({images}){
      }
 
     return(
-       <div style={sliderStyle}>
-            <div style={leftArrowStyle} onClick={goToPrevious}>{"\u003c"}</div>
-            <div style={rightArrowStyle} onClick={goToNext}>{"\u003e"}</div>
-            <div style={slideStyles}></div>
-            <div style={dotsContainerStyles}>
-                {images.map((slide, slideIndex)=>(
-                    <div 
-                        style={dotStyles} 
-                        key={slideIndex}
-                        onClick={() => goToSlide(slideIndex)}
-                    >
-                        {"\u2022"}
-                    </div>
-                ))}
+      
+       <div>
+            
+            <div className=" flex justify-center items-center">
+               <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3  mx-auto flex items-center rounded-md hover:scale-110 duration-300" onClick={goToPrevious}>{"\u003c"}</button>
+              <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 mx-auto flex items-center rounded-md hover:scale-110 duration-300" onClick={goToNext}>{"\u003e"}</button>
+         
             </div>
-            <div className="text-md p-4 mx-auto flex justify-center md:text-lg "> {images[currentIndex].notes} </div>
+            
+            <div className=" flex flex-col justify-center items-center ">
+               <div className="text-md p-4 mx-auto flex md:text-lg"> {images[currentIndex].notes} </div>
+               <img src={images[currentIndex].url} className=" h-1/2" />
+            </div>
+                    
        </div>
     )
 
