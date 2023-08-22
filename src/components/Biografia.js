@@ -39,9 +39,7 @@ function Biografia() {
     {url: photo17 , notes: "Mesa redonda sobre empreendedorismo em Africa, organizado pelo ISCTE" },
     {url: photo18 , notes: "Aulas no ISCTE" },
     {url: photo19 , notes: "Apos defesa de mestrado na FEUAN" },
-
-    
-    
+  
 ];
   return (
     <div

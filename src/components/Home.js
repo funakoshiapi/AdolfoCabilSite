@@ -8,8 +8,8 @@ function Home() {
    
         <section name="introdução" className=' h-full w-full bg-gradient-to-b
         from-blue-950 via-blue-900 to-blue-900'>
-            <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-screen px-4 md:flex-row '>
-                <div className='flex flex-col justify-center md:mr-4 mb-32' >
+            <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-screen px-4 md:flex-row pt-14'>
+                <div className='flex flex-col justify-center md:mr-4 ' >
                     <h2 className='text-white text-2xl md:text-7xl font-bold mt-12'>
                         Olá! Bem-Vindo
                     </h2>
