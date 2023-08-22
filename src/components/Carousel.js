@@ -27,7 +27,7 @@ function Carousel({images}){
             
             <div className=" flex flex-col justify-center items-center ">
                <div className="text-md p-4 mx-auto flex md:text-lg"> {images[currentIndex].notes} </div>
-               <img src={images[currentIndex].url} loading="lazy" className="h-22 md:h1/2" alt='biografia' />
+               <img src={images[currentIndex].url} loading="eager" className="h-22 md:h1/2" alt='biografia' />
             </div>
                     
        </div>
