@@ -1,19 +1,7 @@
 import { useState } from "react";
-import { LazyLoadComponent } from "react-lazy-load-image-component";
 
 function Carousel({images}){
     const [currentIndex, setCurrentIndex] = useState(0);
-
-     const dotsContainerStyles ={
-        display: 'flex',
-        justifyContent: 'center'
-     }
-
-     const dotStyles = {
-        margin: '0 3px',
-        cursor: 'pointer',
-        fontSize: '20px',
-     }
 
      const goToPrevious = () => {
         const isFirstSlide = currentIndex === 0;
@@ -25,10 +13,6 @@ function Carousel({images}){
         const isLastSlide = currentIndex === images.length - 1;
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex)
-     }
-
-     const goToSlide = (slideIndex) => {
-        setCurrentIndex(slideIndex)
      }
 
     return(
