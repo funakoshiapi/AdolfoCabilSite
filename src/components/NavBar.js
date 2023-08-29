@@ -9,12 +9,12 @@ const NavBar = () => {
   const links = [
       {
         id:1,
-        link: 'introdução',
+        link: 'breve apresentação',
         href: 'introdução'
       },
       {
         id:2,
-        link: 'educação',
+        link: 'habilitações',
         href: 'educação'
       },
       {
@@ -26,7 +26,7 @@ const NavBar = () => {
       {
         id:4,
         link: 'contacto',
-        href: 'biografia'
+        href: 'contacto'
       }
     ];
   return (
@@ -39,10 +39,10 @@ const NavBar = () => {
 
       <ul className='hidden md:flex'>
 
-        {links.map(({id, link}) =>(
+        {links.map(({id, link, href}) =>(
 
             <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200'>
-              <Link to={link} smooth duration={500}>{link}</Link>
+              <Link to={href} smooth duration={500}>{link}</Link>
             </li>
         ))}
         <li className='px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200'>
@@ -60,14 +60,14 @@ const NavBar = () => {
 
         <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b
         from-blue-950 via-blue-900 to-blue-900 text-gray-300 md:hidden'>
-        {links.map(({id, link}) =>(
+        {links.map(({id, link, href}) =>(
 
           <li key={id} className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-105 duration-200'>
-            <Link to={link} onClick={()=> setNav(!nav)}>{link}</Link>
+            <Link to={href} onClick={()=> setNav(!nav)}>{link}</Link>
           </li>
         ))}
         <li className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-105 duration-200'> 
-            <a href='https://drive.google.com/drive/folders/1xlwLp3HG3uzULqvBl2mrSAZ1ybiAKnMG?usp=sharing' target="_blank" rel="noreferrer noopener"> recursos académicos </a>
+            <a href='https://drive.google.com/drive/folders/1IT5M561YcLLwfALKDXgIQmRDI0NrfjgF?usp=sharing' target="_blank" rel="noreferrer noopener"> recursos académicos </a>
          </li>
         </ul>
       )}    

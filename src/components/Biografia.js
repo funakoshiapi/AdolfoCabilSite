@@ -17,28 +17,32 @@ import photo16 from '../assets/photo-16.jpeg'
 import photo17 from '../assets/photo-17.jpeg'
 import photo18 from '../assets/photo-18.jpeg'
 import photo19 from '../assets/photo-19.jpeg'
+import photo20 from '../assets/photo-20.jpeg'
+
 
 
 function Biografia() {
 
   const images =[
-    {url: photo1, notes: "2009 Aulas Para Formador De Contabilidade E Gestão . Centro Profissional INEFOP" },
-    {url: photo2,  notes: "2009 Aulas Para Formador De Contabilidade E Gestão . Centro Profissional INEFOP"},
+    {url: photo1, notes: "2009 Formador De Contabilidade E Gestão . Centro Profissional INEFOP" },
+    {url: photo2,  notes: "2009 Formador De Contabilidade E Gestão . Centro Profissional INEFOP"},
     {url: photo15 , notes: "Finalista Escola De Magisterio Do Lucapa 2009- 2010" },
     {url: photo3 ,  notes: "Finalista Escola De Magisterio Do Lucapa 2009- 2010" },
-    {url: photo5 , notes: "Conclusão, Licenciatura em Economia e Gestão Empresarial 2015" },
-    {url: photo6 , notes: "Conclusão, Licenciatura em Economia e Gestão Empresarial 2015" },
-    {url: photo7 , notes: "Conclusão, Licenciatura em Economia e Gestão Empresarial 2015" },
-    {url: photo8 , notes: "Conclusão, Licenciatura em Economia e Gestão Empresarial 2015" },
-    {url: photo9 , notes: "Conclusão, Licenciatura em Economia e Gestão Empresarial 2015" },
-    {url: photo10 , notes: "Conclusão, Mestrado Gestão Empresarial 2021" },
-    {url: photo11 , notes: "Conclusão, Mestrado Gestão Empresarial 2021" },
-    {url: photo13 , notes: "Conclusão, Mestrado Gestão Empresarial 2021" },
-    {url: photo14 , notes: "Conclusão, Mestrado Gestão Empresarial 2021" },
-    {url: photo16 , notes: "Mestrado em Auditoria Empresarial e publica, Coimbra Business School 2023" },
+    {url: photo5 , notes: "2015 Conclusão, Licenciatura em Economia e Gestão Empresarial Faculdade De Economia Da Lunda-Norte-ULAN" },
+    {url: photo6 , notes: "2015 Conclusão, Licenciatura em Economia e Gestão Empresarial Faculdade De Economia Da Lunda-Norte-ULAN" },
+    {url: photo7 , notes: "2015 Conclusão, Licenciatura em Economia e Gestão Empresarial Faculdade De Economia Da Lunda-Norte-ULAN" },
+    {url: photo8 , notes: "2015 Conclusão, Licenciatura em Economia e Gestão Empresarial Faculdade De Economia Da Lunda-Norte-ULAN" },
+    {url: photo9 , notes: "2015 Conclusão, Licenciatura em Economia e Gestão Empresarial Faculdade De Economia Da Lunda-Norte-ULAN" },
+    {url: photo10 , notes: "2021 Conclusão, Mestrado em Administração e Finanças" },
+    {url: photo11 , notes: "2021 Conclusão, Mestrado em Administração e Finanças" },
+    {url: photo13 , notes: "2021 Conclusão, Mestrado em Administração e Finanças" },
+    {url: photo14 , notes: "2021 Conclusão, Mestrado em Administração e Finanças" },
+    {url: photo16 , notes: "2023 Conclusão Mestrado em Auditoria Empresarial e publica, Coimbra Business School" },
     {url: photo17 , notes: "Mesa redonda sobre empreendedorismo em Africa, organizado pelo ISCTE" },
     {url: photo18 , notes: "Aulas no ISCTE" },
     {url: photo19 , notes: "Apos defesa de mestrado na FEUAN" },
+    {url: photo20 , notes: "Junho de 2023 seminário sobre inteligência emocional animado por Derose no Iscac" },
+  
   
 ];
   return (
