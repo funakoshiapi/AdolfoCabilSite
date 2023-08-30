@@ -22,7 +22,7 @@ function Table({description}) {
 
                 {description.map(({year, university, program}) =>( 
                   
-                <tr className="bg-white border-b dark:bg-blue-900 dark:border-cyan-700">
+                <tr className=" bg-blue-900 border-b dark:bg-blue-900 dark:border-cyan-700">
                     <th scope="row" className="text-md px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white md:text-lg">
                         {year}
                     </th>
