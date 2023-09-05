@@ -41,7 +41,7 @@ function Home() {
                 <div>
                     <img src={HeroImage} 
                         alt="hero"
-                        className='rounded-2xl mx-auto w-2/3 md:w-full object-fill'
+                        className='rounded-2xl mx-auto w-2/3 md:w-[300rem] object-fill'
                     />
                 </div>
             </div>
