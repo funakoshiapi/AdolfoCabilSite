@@ -32,8 +32,8 @@ const NavBar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-blue-950 fixed z-50'>
       <Link to={'introdução'} smooth duration={500}>
-          <button>
-            <h1 className='text-5xl font-signature ml-2 md:text-3xl lg:text-5xl'>Adolfo Cabeia</h1>
+          <button className='flex h-full'>
+            <h1 className='text-2xl font-signature ml-2 md:text-3xl lg:text-5xl'>Adolfo Cabeia</h1>
           </button>   
       </Link>
 

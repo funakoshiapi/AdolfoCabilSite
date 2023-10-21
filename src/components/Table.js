@@ -5,8 +5,8 @@ function Table({description}) {
 
         <div className="relative overflow-x-auto z-0 h-screen">
             <table className="w-full text-sm text-left text-gray-300 dark:text-gray-400 z-0">
-                <thead className="text-xs text-gray-300 uppercase bg-gray-50 dark:bg-slate-500 dark:text-gray-400">
-                    <tr>
+                <thead className="text-xs text-gray-300 uppercase bg-[#808080] dark:bg-slate-500 dark:text-gray-400">
+                    <tr className='bg-[#808080]'>
                         <th scope="col" className=" text-md px-6 py-3 md:text-lg text-gray-300">
                             Ano
                         </th>
