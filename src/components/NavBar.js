@@ -67,7 +67,7 @@ const NavBar = () => {
           </li>
         ))}
         <li className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-105 duration-200'> 
-            <a href='https://drive.google.com/drive/folders/1IT5M561YcLLwfALKDXgIQmRDI0NrfjgF?usp=sharing' target="_blank" rel="noreferrer noopener"> recursos académicos </a>
+            <a href='https://drive.google.com/drive/folders/1sErUykZa5UtqPPN4v12WNnjC8DeQrhx3?usp=drive_link' target="_blank" rel="noreferrer noopener"> recursos académicos </a>
          </li>
         </ul>
       )}    
