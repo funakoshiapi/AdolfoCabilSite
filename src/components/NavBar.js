@@ -47,7 +47,7 @@ const NavBar = () => {
         ))}
         <li className='px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200'>
            
-           <a href='https://drive.google.com/drive/folders/1IT5M561YcLLwfALKDXgIQmRDI0NrfjgF?usp=sharing' target="_blank" rel="noreferrer noopener"> recursos académicos </a>
+           <a href='https://drive.google.com/drive/folders/1IT5M561YcLLwfALKDXgIQmRDI0NrfjgF' target="_blank" rel="noreferrer noopener"> recursos académicos </a>
            </li>
       </ul>
 
@@ -67,7 +67,7 @@ const NavBar = () => {
           </li>
         ))}
         <li className='px-4 cursor-pointer capitalize py-6 text-3xl hover:scale-105 duration-200'> 
-            <a href='https://drive.google.com/drive/folders/1IT5M561YcLLwfALKDXgIQmRDI0NrfjgF?usp=sharing' target="_blank" rel="noreferrer noopener"> recursos académicos </a>
+            <a href='https://drive.google.com/drive/folders/1IT5M561YcLLwfALKDXgIQmRDI0NrfjgF'x target="_blank" rel="noreferrer noopener"> recursos académicos </a>
          </li>
         </ul>
       )}    
